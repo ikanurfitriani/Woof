@@ -1,12 +1,12 @@
+// Nama package dari file yang dibuat
 package com.ikanurfitriani.woof.data
 
+// Import library yang akan digunakan
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
 import com.ikanurfitriani.woof.R
 
-/**
- * A data class to represent the information presented in the dog card
- */
+// Kelas data untuk mewakili informasi yang disajikan dalam kartu anjing
 data class Dog(
     @DrawableRes val imageResourceId: Int,
     @StringRes val name: Int,
@@ -14,6 +14,7 @@ data class Dog(
     @StringRes val hobbies: Int
 )
 
+// Menampilkan daftar gambar anjing, umur/usia dan deskripsinya
 val dogs = listOf(
     Dog(R.drawable.koda, R.string.dog_name_1, 2, R.string.dog_description_1),
     Dog(R.drawable.lola, R.string.dog_name_2, 16, R.string.dog_description_2),
