@@ -10,6 +10,6 @@ import androidx.compose.ui.unit.dp
 val Shapes = Shapes(
     // Mendefinisikan bentuk kecil (small) sebagai sudut lengkungan dengan radius sudut sebesar 50.dp
     small = RoundedCornerShape(50.dp),
-    // Mendefinisikan bentuk medium (medium) sebagai RoundedCornerShape dengan sudut lengkungan berbeda untuk sudut bottom start dan top end
+    // Mendefinisikan bentuk medium (medium) sebagai sudut lengkungan berbeda untuk sudut bottom start dan top end
     medium = RoundedCornerShape(bottomStart = 16.dp, topEnd = 16.dp)
 )

@@ -213,7 +213,8 @@ fun WoofTopAppBar(modifier: Modifier = Modifier) {
                         .padding(dimensionResource(R.dimen.padding_small)),
                     painter = painterResource(R.drawable.ic_woof_logo),
 
-                    // Content description diatur sebagai null, yang menunjukkan bahwa gambar ini bersifat dekoratif dan dapat diabaikan oleh layanan aksesibilitas selama navigasi
+                    // Content description diatur sebagai null, yang menunjukkan bahwa gambar ini bersifat dekoratif
+                    // dan dapat diabaikan oleh layanan aksesibilitas selama navigasi
                     contentDescription = null
                 )
                 // Untuk mengatur dan menampilkan text
@@ -252,7 +253,8 @@ fun DogIcon(
         // Menentukan gambar yang akan ditampilkan di dalam Image dengan menggunakan ID sumber daya Drawable
         painter = painterResource(dogIcon),
 
-        // Menetapkan deskripsi konten gambar sebagai null. Ini menandakan bahwa gambar ini bersifat dekoratif dan dapat diabaikan oleh layanan aksesibilitas selama navigasi
+        // Menetapkan deskripsi konten gambar sebagai null.
+        // Ini menandakan bahwa gambar ini bersifat dekoratif dan dapat diabaikan oleh layanan aksesibilitas selama navigasi
         contentDescription = null
     )
 }
